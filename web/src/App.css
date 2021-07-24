@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #24282F;
+}
+
+img{
+  height: 65px;
+}
+
+.header h1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family:sans-serif;
+  font-weight:100
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color:#FFFFFF;
+  background: #FFFFFF;
+  background: radial-gradient(circle, #24282F 0%, #FFFFFF 100%);
+}
+
+.home-page{
+  position:relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.report{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.report Button{
+  margin-top: 1.5rem
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  width: 100%;
+  height: 60vh;
+}
+
+.containerTransfer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transfer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transfer h2, .filters h2, .home-page h2, h3{
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  font-family:sans-serif;
+  font-weight:100;
+
+}
+
+.table{
+  margin-bottom: 4rem;
+  width: 80%;
+}
+
+.filters{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  position:absolute; 
+  bottom:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #24282F;
+  background: radial-gradient(circle, #24282F 0%, #FFFFFF 100%);
+}
